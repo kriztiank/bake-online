@@ -1,0 +1,179 @@
+/* GLOBAL STYLES */
+/*********************************************
+generel styles
+**********************************************/
+body {
+  font-family: 'open-sans', sans-serif;
+  overflow-x: hidden;
+  background-color: white;
+  color: black;
+}
+
+a {
+  // text-decoration: none;
+  color: white;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 400;
+  // line-height: 55px;
+  // padding-top: 20px;
+  font-family: 'lobster', sans-serif;
+}
+
+.btn__grey {
+  width: 125px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #617685;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  font-weight: 300;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.btn__grey:hover {
+  filter: brightness(90%);
+}
+
+.btn__white__p {
+  padding-top: 1.25rem;
+}
+
+.btn__white {
+  width: 180px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 300;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.btn__white:hover {
+  border: 1px solid black;
+}
+
+/*********************************************
+index__section1 - head
+**********************************************/
+.index__section1 {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 1.25rem;
+}
+
+/*********************************************
+index__section2 - 3 column grid
+**********************************************/
+.index__section2 {
+  /* use for outher margins or full element color */
+  background: white;
+  text-align: center;
+
+  .wrap {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1.25rem;
+  }
+
+  .columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+
+  .group img {
+    width: 100%;
+  }
+
+  .circular__square {
+    border-radius: 50%;
+    padding: 1.25rem;
+  }
+}
+
+/*********************************************
+index__section3 - newsletter
+**********************************************/
+.index__section3 {
+  color: white;
+  background-image: url('../images/newsletterbg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35vh;
+  width: 100vw;
+
+  .wrap {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1.25rem;
+  }
+}
+
+/*********************************************
+index__section4 - head
+**********************************************/
+.index__section4 {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 1.25rem;
+}
+
+/*********************************************
+index__section5 - 4 column grid
+**********************************************/
+.index__section5 {
+  /* use for outher margins or full element color */
+  background: white;
+  text-align: center;
+  padding-top: 60px;
+
+  .wrap {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1.25rem;
+  }
+
+  .columns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+
+  .group img {
+    width: 100%;
+  }
+
+  .square {
+    padding: 0;
+  }
+}
+
+/* Medium devices (tablets, 900px and down) */
+@media screen and (max-width: 800px) {
+  .index__section5 {
+    .columns {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+    }
+  }
+}
+
+/* Medium devices (tablets, 900px and down) */
+@media screen and (max-width: 600px) {
+  .index__section5 {
+    .columns {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 20px;
+    }
+  }
+}
