@@ -6,13 +6,7 @@ products__section1 - head
   height: 40px;
   font-size: 14px;
   font-weight: 300;
-  transition: all 0.3s ease 0s;
-  cursor: pointer;
   text-align: left;
-}
-
-.btn__white__block:hover {
-  border: 1px solid black;
 }
 
 .sub__products__section1 {
@@ -26,9 +20,5 @@ products__section1 - head
   // display: grid;
   max-width: 800px;
   margin: auto;
-  padding: 1px 1.25rem;
-  a {
-    // text-decoration: none;
-    color: black;
-  }
+  padding: 1.25rem;
 }
