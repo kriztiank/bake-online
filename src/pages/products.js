@@ -33,11 +33,7 @@ const ProductsPage = props => {
         <div className="wrap">
           <section className="columns">
             <div className="group">
-              <img
-                className="square"
-                src="https://place-hold.it/200x200.jpg"
-                alt="image"
-              />
+            <img className="square" src="https://kris530s.apache.techcollege.dk/img/bread/1.png" alt="image" />
               <h3>HÅNDVÆRKER</h3>
               <p>
                 Der er mange tilgængelige udgaver af Lorem Ipsum, men de fleste
@@ -49,11 +45,7 @@ const ProductsPage = props => {
             </div>
 
             <div className="group">
-              <img
-                className="square"
-                src="https://place-hold.it/200x200.jpg"
-                alt="image"
-              />
+            <img className="square" src="https://kris530s.apache.techcollege.dk/img/bread/2.png" alt="image" />
               <h3>HÅNDVÆRKER</h3>
               <p>
                 Der er mange tilgængelige udgaver af Lorem Ipsum, men de fleste
@@ -65,11 +57,7 @@ const ProductsPage = props => {
             </div>
 
             <div className="group">
-              <img
-                className="square"
-                src="https://place-hold.it/200x200.jpg"
-                alt="image"
-              />
+            <img className="square" src="https://kris530s.apache.techcollege.dk/img/bread/3.png" alt="image" />
               <h3>HÅNDVÆRKER</h3>
               <p>
                 Der er mange tilgængelige udgaver af Lorem Ipsum, men de fleste
@@ -88,11 +76,7 @@ const ProductsPage = props => {
         <div className="wrap">
           <section className="columns">
             <div className="group">
-              <img
-                className="square"
-                src="https://place-hold.it/200x200.jpg"
-                alt="image"
-              />
+            <img className="square" src="https://kris530s.apache.techcollege.dk/img/bread/4.png" alt="image" />
               <h3>HÅNDVÆRKER</h3>
               <p>
                 Der er mange tilgængelige udgaver af Lorem Ipsum, men de fleste
@@ -104,11 +88,7 @@ const ProductsPage = props => {
             </div>
 
             <div className="group">
-              <img
-                className="square"
-                src="https://place-hold.it/200x200.jpg"
-                alt="image"
-              />
+            <img className="square" src="https://kris530s.apache.techcollege.dk/img/bread/5.png" alt="image" />
               <h3>HÅNDVÆRKER</h3>
               <p>
                 Der er mange tilgængelige udgaver af Lorem Ipsum, men de fleste
@@ -120,11 +100,7 @@ const ProductsPage = props => {
             </div>
 
             <div className="group">
-              <img
-                className="square"
-                src="https://place-hold.it/200x200.jpg"
-                alt="image"
-              />
+            <img className="square" src="https://kris530s.apache.techcollege.dk/img/bread/6.png" alt="image" />
               <h3>HÅNDVÆRKER</h3>
               <p>
                 Der er mange tilgængelige udgaver af Lorem Ipsum, men de fleste

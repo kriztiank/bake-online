@@ -1,20 +1,6 @@
 /*********************************************
 products__section1 - head
 **********************************************/
-.btn__white__block {
-  width: 100%;
-  height: 40px;
-  font-size: 14px;
-  font-weight: 300;
-  transition: all 0.3s ease 0s;
-  cursor: pointer;
-  text-align: left;
-}
-
-.btn__white__block:hover {
-  border: 1px solid black;
-}
-
 .products__head1 {
   text-align: center;
   max-width: 800px;
@@ -38,12 +24,11 @@ products__section2 - 3 column grid
 **********************************************/
 .products__section2 {
   /* use for outher margins or full element color */
-  background: red;
   text-align: center;
   padding-top: 60px;
 
   .wrap {
-    max-width: 1200px;
+    max-width: 800px;
     margin: auto;
     padding: 1.25rem;
   }
