@@ -17,23 +17,28 @@ const ProductsPage = props => {
           eller tilfældige ord, som på ingen måde ser ægte ud
         </p>
       </section>
-      {props.data.allCategories.edges.map(({ node }) => {
-        return (
-          <section className="products__section1">
-            <div key={node.id} style={{ marginBottom: 1 }}>
-              <Link to={node.title}>
-                <p>{node.title}</p>
-              </Link>
-            </div>
-          </section>
-        );
-      })}
 
+      <div className="container">
+        {props.data.allCategories.edges.map(({ node }) => {
+          return (
+            <section className="products__section1">
+
+              <nav key={node.id} style={{ marginBottom: 1 }}>
+                <Link to={node.title}>
+                  <p>{node.title}</p>
+                </Link>
+              </nav>
+
+            </section>
+          );
+
+        })}
+      </div>
       <div className="products__section2">
         <div className="wrap">
           <section className="columns">
             <div className="group">
-            <img className="square" src="https://kris530s.apache.techcollege.dk/img/bread/1.png" alt="image" />
+              <img className="square" src="https://kris530s.apache.techcollege.dk/img/bread/1.png" alt="image" />
               <h3>HÅNDVÆRKER</h3>
               <p>
                 Der er mange tilgængelige udgaver af Lorem Ipsum, men de fleste
@@ -45,7 +50,7 @@ const ProductsPage = props => {
             </div>
 
             <div className="group">
-            <img className="square" src="https://kris530s.apache.techcollege.dk/img/bread/2.png" alt="image" />
+              <img className="square" src="https://kris530s.apache.techcollege.dk/img/bread/2.png" alt="image" />
               <h3>HÅNDVÆRKER</h3>
               <p>
                 Der er mange tilgængelige udgaver af Lorem Ipsum, men de fleste
@@ -57,7 +62,7 @@ const ProductsPage = props => {
             </div>
 
             <div className="group">
-            <img className="square" src="https://kris530s.apache.techcollege.dk/img/bread/3.png" alt="image" />
+              <img className="square" src="https://kris530s.apache.techcollege.dk/img/bread/3.png" alt="image" />
               <h3>HÅNDVÆRKER</h3>
               <p>
                 Der er mange tilgængelige udgaver af Lorem Ipsum, men de fleste
@@ -76,7 +81,7 @@ const ProductsPage = props => {
         <div className="wrap">
           <section className="columns">
             <div className="group">
-            <img className="square" src="https://kris530s.apache.techcollege.dk/img/bread/4.png" alt="image" />
+              <img className="square" src="https://kris530s.apache.techcollege.dk/img/bread/4.png" alt="image" />
               <h3>HÅNDVÆRKER</h3>
               <p>
                 Der er mange tilgængelige udgaver af Lorem Ipsum, men de fleste
@@ -88,7 +93,7 @@ const ProductsPage = props => {
             </div>
 
             <div className="group">
-            <img className="square" src="https://kris530s.apache.techcollege.dk/img/bread/5.png" alt="image" />
+              <img className="square" src="https://kris530s.apache.techcollege.dk/img/bread/5.png" alt="image" />
               <h3>HÅNDVÆRKER</h3>
               <p>
                 Der er mange tilgængelige udgaver af Lorem Ipsum, men de fleste
@@ -100,7 +105,7 @@ const ProductsPage = props => {
             </div>
 
             <div className="group">
-            <img className="square" src="https://kris530s.apache.techcollege.dk/img/bread/6.png" alt="image" />
+              <img className="square" src="https://kris530s.apache.techcollege.dk/img/bread/6.png" alt="image" />
               <h3>HÅNDVÆRKER</h3>
               <p>
                 Der er mange tilgængelige udgaver af Lorem Ipsum, men de fleste

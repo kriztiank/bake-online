@@ -1,6 +1,13 @@
 /*********************************************
 products__section1 - head
 **********************************************/
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  max-width: 800px;
+  margin: auto;
+}
+
 .products__head1 {
   text-align: center;
   max-width: 800px;
@@ -9,10 +16,9 @@ products__section1 - head
 }
 
 .products__section1 {
-  // display: grid;
-  max-width: 800px;
-  margin: auto;
-  padding: 1px 1.25rem;
+  text-align: center;
+  padding: 1.25rem;
+
   a {
     // text-decoration: none;
     color: black;
