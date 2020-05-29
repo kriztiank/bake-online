@@ -5,7 +5,7 @@ import navStyles from './nav.module.scss';
 const Nav = () => {
   return (
     <header className={navStyles.header}>
-      <>
+
         <div className={navStyles.container}>
           <nav>
             <ul className={navStyles.menu}>
@@ -37,7 +37,7 @@ const Nav = () => {
             </ul>
           </nav>
         </div>
-      </>
+
     </header>
   );
 };
