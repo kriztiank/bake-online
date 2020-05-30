@@ -1,5 +1,6 @@
-import { Link } from 'gatsby';
 import React from 'react';
+import { Link } from 'gatsby';
+import { graphql } from 'gatsby'
 import Head from '../components/head';
 import Layout from '../components/layout/layout';
 import './products.scss';

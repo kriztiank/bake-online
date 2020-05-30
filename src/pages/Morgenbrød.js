@@ -1,4 +1,5 @@
 import React from 'react';
+import { graphql } from 'gatsby' 
 import Head from '../components/head';
 import Layout from '../components/layout/layout';
 import './sub_products.scss';
